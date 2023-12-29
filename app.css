@@ -1,0 +1,79 @@
+body {
+    font-family: Oxanium, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.447), rgb(0, 0, 0)) right 100px no-repeat, url('https://angra.net/wp-content/themes/jduartedesign/images/bg.jpg') right 120px no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+.black {
+    background-color: black;
+  }
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+#biography {
+    margin-top: 650px;
+    font-size: 1.2em;
+}
+
+#biography span {
+    font-size: 2em;
+}
+
+#carousels {
+    margin-top: 50px;
+}
+
+#albums {
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+#albums img {
+    margin-bottom: 15px;
+}
+
+.carousel .carousel-item {
+    height: 35em;
+    width: 100%;
+}
+  
+.carousel-item img {
+    display:block;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2.1px black;
+}
+
+.carousel-caption p {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 940px) {
+    body {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.272), rgb(0, 0, 0)), url('./Resources/bg.jpg') fixed;
+        background-color: rgba(0, 0, 0, 0.863);
+    }
+}
+
+@media (max-width: 768px) {
+    #biography {
+        margin-top: 140px;
+        font-size: 1em;
+    }
+
+    .navbar-brand img {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .carousel .carousel-item {
+        height: 12em;
+    }
+}
