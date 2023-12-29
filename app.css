@@ -5,6 +5,10 @@ body {
     background-color: black;
 }
 
+h2{
+    font-size: 2em;
+}
+
 .black {
     background-color: black;
   }
@@ -27,12 +31,16 @@ body {
 }
 
 #albums {
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 1.2em;
 }
 
 #albums img {
     margin-bottom: 15px;
+}
+
+#albums img:hover {
+    cursor: pointer;
 }
 
 .carousel .carousel-item {
